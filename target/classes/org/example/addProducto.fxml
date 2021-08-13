@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane stylesheets="@tableviewstyle.css" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.addProductoController">
+   <children>
+      <Label layoutX="93.0" layoutY="108.0" text="Codigo de producto" />
+      <Label layoutX="89.0" layoutY="150.0" text="Nombre del producto" />
+      <Label layoutX="94.0" layoutY="201.0" text="Precio del producto" />
+      <TextField fx:id="txtCP" layoutX="248.0" layoutY="104.0" />
+      <TextField fx:id="txtNP" layoutX="248.0" layoutY="146.0" />
+      <TextField fx:id="txtPP" layoutX="248.0" layoutY="197.0" />
+      <Label layoutX="147.0" layoutY="44.0" text="Agregar o modificar producto">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnOK" layoutX="419.0" layoutY="283.0" mnemonicParsing="false" onAction="#Aceptar" text="Aceptar" />
+      <Button fx:id="btnBack2" layoutX="323.0" layoutY="283.0" mnemonicParsing="false" onAction="#Back" text="Volver" />
+   </children>
+</AnchorPane>
